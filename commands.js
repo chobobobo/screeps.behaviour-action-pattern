@@ -16,11 +16,11 @@ Game.rooms['<roomName>'].spawnQueueLow.push({parts:[MOVE,WORK,CARRY],name:'max',
 
 // clear spawn queues for a room
 // clear low priority queue
-Game.rooms['<roomName>'].spawnQueueLow = [0];
+Memory.rooms['<roomName>'].spawnQueueLow = [0];
 // clear medium priority queue
-Game.rooms['<roomName>'].spawnQueueMed = [0];
+Memory.rooms['<roomName>'].spawnQueueMed = [0];
 // clear high priority queue 
-Game.rooms['<roomName>'].spawnQueueHigh = [0];
+Memory.rooms['<roomName>'].spawnQueueHigh = [0];
 
 // move Creep
 Game.creeps['<creepName>'].move(RIGHT);
