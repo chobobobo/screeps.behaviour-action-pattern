@@ -18,7 +18,7 @@ Game.rooms['<roomName>'].spawnQueueLow.push({parts:[MOVE,WORK,CARRY],name:'max',
 // clear low priority queue
 Memory.rooms['<roomName>'].spawnQueueLow = [0];
 // clear medium priority queue
-Memory.rooms['<roomName>'].spawnQueueMed = [0];
+Memory.rooms['<roomName>'].spawnQueueMedium = [0];
 // clear high priority queue 
 Memory.rooms['<roomName>'].spawnQueueHigh = [0];
 
